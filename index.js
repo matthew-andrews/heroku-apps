@@ -29,6 +29,8 @@ exports.commands = [
   require('./commands/domains/clear'),
   require('./commands/domains/remove'),
   require('./commands/drains'),
+  require('./commands/drains/add'),
+  require('./commands/drains/remove'),
   require('./commands/maintenance/index'),
   require('./commands/maintenance/off'),
   require('./commands/maintenance/on'),
