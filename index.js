@@ -9,6 +9,7 @@ exports.topics = [
 ];
 
 exports.commands = [
+  require('./commands/apps'),
   require('./commands/apps/info').apps,
   require('./commands/apps/info').root,
   require('./commands/config'),
