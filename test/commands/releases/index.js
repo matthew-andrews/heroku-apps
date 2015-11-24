@@ -43,8 +43,8 @@ describe('releases', function() {
       ]);
     return cmd.run({app: 'myapp', flags: {}})
     .then(() => expect(cli.stdout).to.equal(`=== myapp Releases
-v40  Set foo config vars   jeff@heroku.com  2015/11/17 17:37:41
-v39  Remove AWS_SECRET_A…  jeff@heroku.com  2015/11/17 17:36:38
+v40  Set foo config vars   jeff@heroku.com  2015/11/18 01:37:41
+v39  Remove AWS_SECRET_A…  jeff@heroku.com  2015/11/18 01:36:38
 `))
     .then(() => api.done());
   });
